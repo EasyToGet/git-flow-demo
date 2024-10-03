@@ -5,3 +5,36 @@ h1 {
 p {
   color: brown;
 }
+
+.btn {
+  text-decoration: none;
+  display: flex;
+  width: 96px;
+  height: 96px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #025095;
+}
+
+.btn-icon {
+  width: 32px;
+  height: 32px;
+  background: #025095;
+  color: white;
+  border-radius: 104px;
+}
+.btn:hover {
+  background: #025095;
+  color: #fff;
+  border-radius: 86px;
+  width: 368px;
+  height: 60px;
+  padding: 12px 20px;
+}
+
+.btn:hover .btn-icon {
+  background: white;
+  color: #025095;
+}
